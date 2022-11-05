@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label id="name-label" >name: </label>
+  <input id="name" type="text" placeholder="enter your name" required></input>
+
+  <label id="email-label"> email:</label>
+  <input id="email" type="email" placeholder= "enter your email" required></input>
+
+  <label id="number-label" >number: </label>
+  <input id="number" type="number" min="3" max="11" placeholder="enter a number" required></input>
+
+  <label for="cars">choose one:</label>
+  <select name="cars" id="dropdown" form="carform">
+    <option value="volvo">pizza</option>
+    <option value="saab">hamburguer</option>
+  </select>
+  
+ 
+
+  <div>
+  <input type="radio" value="yes" name="cheese">with cheese</input>
+  <input type="radio" value="no" name="cheese">whithout cheese</input>
+  </div>
+
+  <div>
+  <input type="checkbox" value="yes" name="cheese">with cheese</input>
+  <input type="checkbox" value="no" name="cheese">whithout cheese</input>
+  </div>
+
+  <textarea name="comment" form="usrform">Enter text here...</textarea>
+  <input id="submit" type="submit"></input>
+</form>
+</body>
+</html>
